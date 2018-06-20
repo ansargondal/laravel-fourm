@@ -17,5 +17,6 @@ Route::get('/threads', 'ThreadsController@index');
 
 Route::get('/threads/{thread}', 'ThreadsController@show')->name('threads.show');
 
+
 Auth::routes();
 
