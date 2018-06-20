@@ -12,7 +12,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 //        $this->call(CountrySeeder::class);
-//        $this->call(UserTableSeeder::class);
+        $this->call(UserTableSeeder::class);
+        $this->call(ThreadSeeder::class);
         $this->call(ReplySeeder::class);
 
 //        $users = factory(User::class, 20)->create();

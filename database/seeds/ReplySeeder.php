@@ -1,5 +1,6 @@
 <?php
 
+use App\Reply;
 use Illuminate\Database\Seeder;
 
 class ReplySeeder extends Seeder
@@ -11,6 +12,6 @@ class ReplySeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Reply::class, 200)->create();
+        factory(Reply::class, 200)->create();
     }
 }

@@ -1,5 +1,6 @@
 <?php
 
+use App\Thread;
 use Illuminate\Database\Seeder;
 
 class ThreadSeeder extends Seeder
@@ -11,6 +12,6 @@ class ThreadSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Thread::class, 20)->create();
+        factory(Thread::class, 20)->create();
     }
 }
