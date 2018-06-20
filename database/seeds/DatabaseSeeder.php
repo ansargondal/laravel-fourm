@@ -11,6 +11,17 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+//        $this->call(CountrySeeder::class);
+//        $this->call(UserTableSeeder::class);
+        $this->call(ReplySeeder::class);
+
+//        $users = factory(User::class, 20)->create();
+
+//        $users->each(function ($user) {
+//
+//            //save 20 threads for each user
+//            $user->threads()->save(factory(Thread::class, 20)->make());
+//
+//        });
     }
 }

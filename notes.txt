@@ -1,0 +1,10 @@
+=> Forum
+
+1. Threads
+2. Reply
+3. User
+
+A. User can have multiple threads
+B. Thread belongs to a user
+C. Reply belongs to Thread as well as a user
+
